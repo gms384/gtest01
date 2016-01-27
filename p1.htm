@@ -29,7 +29,7 @@
 <link href="common/lib/styles/boot2016.css" rel="stylesheet">
 <link rel="stylesheet" href="common/lib/packages/font-awesome-4.2.0/css/font-awesome.min.css">
 <script src="common/lib/scripts/common1.js"></script>
-
+<link rel="stylesheet" type="text/css" href="common/lib/styles/core2016.css" /> 
     <script type="text/javascript">
         gLaptopP=true;
         gParentDir='/websites/websites3/xtolMastersSocraticArtsCom/';  
@@ -43,13 +43,67 @@ setVar('userToken', '4E732CED3463D06DE0CA9A15B6153677');
 <body>
 
 
+<table class="w100 coreHeader" border="0">
+	<tr class="coreHeader">
+    	<td class="vam shrink pl15 pr5" style="height:70px;">
+	        <img class="cp" onclick="gotoURL('http://umuc.dataanalyticsacademy.com/');" src="//s3.amazonaws.com/gbstool/pub/sites/courses.umuc.dataanalyticsacademy.com/umuc-logo-white.png" alt="Site Logo" style="height:55px;zwidth:150px;" />
+        </td>
+        <td class="expand vam pl15">
+        	
+        </td>
+        <td class="tar shrink pl5 pr15">
+        
+        <div class="dropdown">
+  <button class="btn btn-primary dropdown-toggle fs18 coreBgColor" type="button" data-toggle="dropdown" style="background-color:#006C9B;">
+  	<span class="glyphicon glyphicon-menu-hamburger"> </span>&nbsp;
+    Gregory
+  </button>
+  <ul class="dropdown-menu coreBgColor" style="right:0px;left:auto;">
+    <li><a class="whiteLink fs18" href="/websites/websites3/xtolMastersSocraticArtsCom/index">My Courses</a></li>
+    <li><a class="whiteLink fs18" href="/websites/websites3/xtolMastersSocraticArtsCom/myPrograms/profile">My Profile</a></li>
+    
+      <li><a class="whiteLink fs18" href="/websites/websites3/xtolMastersSocraticArtsCom/private/lms/index">LMS</a></li>
+    
+      <li><a class="whiteLink fs18" href="/websites/websites3/xtolMastersSocraticArtsCom/private/new/root/index">Root Dashboard</a></li>
+    
+    <li><a class="whiteLink fs18" href="#" onclick="doLogout();">
+      Log out
+    </a></li>
+  </ul>
+</div>
+          
+<div style="display:none;">
+    
+<form  id="logoutForm" name="logoutForm"  method="post" action="/websites/websites3/xtolMastersSocraticArtsCom/logout" enctype="application/x-www-form-urlencoded" onSubmit="return submitOnce()">
+
+	<input type="hidden" name="userToken" value="4E732CED3463D06DE0CA9A15B6153677" />
+
+    </form>
+</div>
+
+        </td>
+    </tr>
+    
+</table>
+
+
+
+<div style="min-height:calc(100% - 120px);">
+	
+        <div class="container pt30 pb50">
+        	
 
 <div class="p15">
 
 hello world p1<br/><br/>
 <a href="p1.htm">p1</a><br/>
 <a href="p2.htm">p2</a><br/>
-now={ts '2016-01-26 18:57:35'}
+now={ts '2016-01-26 19:13:11'}
+</div>
+
+
+        </div>
+    
 </div>
 
 <!--wf2016--></body></html> 

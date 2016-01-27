@@ -1,0 +1,21 @@
+/* Core2016 styles */
+
+.coreBgColor{background-color:#006C9B !important;}
+
+.coreHeader{ 
+	background-color:#006C9B;
+	color:white;
+}
+
+.coreText{color:#006C9B}
+
+/*
+.coreBgColor{background-color:red !important;}
+.coreHeader{background-color:red;color:white;}
+.coreText{color:green}*/
+
+.ui-widget-header {
+    border: 1px solid #006C9B !important;
+	background-color:#006C9B !important;
+    background:#006C9B none !important;;
+}
