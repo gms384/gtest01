@@ -30,6 +30,8 @@
 <link rel="stylesheet" href="common/lib/packages/font-awesome-4.2.0/css/font-awesome.min.css">
 <script src="common/lib/scripts/common1.js"></script>
 <link rel="stylesheet" type="text/css" href="common/lib/styles/core2016.css" /> 
+    <script>$(document).ready(function(){displayURL("https://ws.dev.socraticarts.com/api/v4/index.cfm");});</script>	
+
     <script type="text/javascript">
         gLaptopP=true;
         gParentDir='/websites/websites3/xtolMastersSocraticArtsCom/';  
@@ -99,8 +101,29 @@ hello world p2<br/><br/>
 <a href="p1.htm">p1</a><br/>
 <a href="p2.htm">p2</a><br/>
 <a href="fetch.htm">fetch</a><br/>
-now={ts '2016-01-26 20:29:53'}
+
+fetch:  u=https://ws.dev.socraticarts.com/api/v4/index.cfm
+
+<div class="" id="data">
+	
 </div>
+
+
+</div>
+
+<script type="text/javascript">
+function displayURL(u){
+	data = structNew();
+	data.iphoneAjaxCode = 1118;
+	createPost2015(u, displayURL2, data);
+}
+
+function displayURL2(data){
+	clog(data);
+	var d = JSON.parse(data);
+	mySetText('data', d.htm);
+}
+</script>
 
 
         </div>
